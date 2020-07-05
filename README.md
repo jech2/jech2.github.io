@@ -8,7 +8,7 @@ Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a pro
 ## Contents
 
 - [Usage](#usage)
-- [Options](#options)
+- [ ](#options)
   - [Sidebar menu](#sidebar-menu)
   - [Sticky sidebar content](#sticky-sidebar-content)
   - [Themes](#themes)
