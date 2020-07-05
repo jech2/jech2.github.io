@@ -1,0 +1,33 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Eunjin Choi
+tagline:          'A Jekyll theme'
+description:      'Welcome to my page!'
+url:              http://jech2.github.io
+baseurl:          /
+
+author:
+  name:           'Eunjin Choi'
+  url:            https://soundcloud.com/jech_2
+
+paginate:         5
+
+# Custom vars
+version:          1.1.0
+
+github:
+  repo:           https://github.com/JECH2
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
