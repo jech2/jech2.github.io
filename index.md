@@ -34,7 +34,7 @@ Jul 2019 - Aug 2019
 Jan 2019 - Feb 2019
 * Winter Intern Program at Visual Computing Lab, DGIST, Daegu, Korea
 
-Jul 2018 - November 2018
+Jul 2018 - Nov 2018
 * Summer Research Program at Music and Audio Research Group(MARG), Seoul National University, Suwon, Korea
 
 ---
