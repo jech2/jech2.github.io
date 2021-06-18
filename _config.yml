@@ -10,7 +10,7 @@ title:            Eunjin Choi
 tagline:          
 description:      'jech@kaist.ac.kr'
 url:              http://jech2.github.io
-baseurl:          ''
+baseurl:          /
 
 author:
   name:           'Eunjin Choi'
