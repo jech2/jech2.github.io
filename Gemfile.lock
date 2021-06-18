@@ -13,9 +13,11 @@ GEM
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
+    eventmachine (1.2.7)
     eventmachine (1.2.7-x86-mingw32)
     faraday (1.0.1)
       multipart-post (>= 1.2, < 3)
+    ffi (1.13.1)
     ffi (1.13.1-x86-mingw32)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
@@ -77,6 +79,8 @@ GEM
       jekyll-seo-tag (~> 2.1)
     minitest (5.14.1)
     multipart-post (2.1.1)
+    nokogiri (1.10.9)
+      mini_portile2 (~> 2.4.0)
     nokogiri (1.10.9-x86-mingw32)
       mini_portile2 (~> 2.4.0)
     octokit (4.18.0)
@@ -108,6 +112,7 @@ GEM
 
 PLATFORMS
   x86-mingw32
+  x86_64-darwin-20
 
 DEPENDENCIES
   jekyll (~> 4.1.1)
@@ -124,4 +129,4 @@ DEPENDENCIES
   wdm (~> 0.1.1)
 
 BUNDLED WITH
-   2.1.4
+   2.2.20
