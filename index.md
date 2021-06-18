@@ -93,7 +93,7 @@ Feb 2017
 * Scholarship from Hye-seul Leadership Award in DGIST
 
 June 2016 - Aug 2016
-* Enroll Summer Semester at University of California, Berkeley, CA, USA
+* Summer Semester at University of California, Berkeley, CA, USA
 * Introduction to Music Theory, Selected Topics in Astronomy
 * Funded by DGIST : Freshman Global Leadership Program
 * Awarded as Academic Exellence
