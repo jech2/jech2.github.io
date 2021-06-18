@@ -7,8 +7,9 @@ title: About
   Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
 </p> -->
 
-Hi, there! I am a person who loves game music so much. I was used to be a heavy gamer of 2D dot pixel graphic game. Meanwhile, I am a dilettante musician. I like playing violin, piano, guitar and sometimes I compose music. So, by joining two interests, I'm studying game music generation. Currently, I'm focusing on the 80s retro game music genre. I love the chip tune and generated sound of the synthesizer at that time ;)
-In more general and large scope, my research interest and question are the harmonization of each instrument in multi-track music generation, and how to make machine learn and understand the composition rules of human-created music.
+I’m a Master’s student in Graduate School of Culture Technology, KAIST. Also, I'm a person who loves game music so much. I was used to be a heavy gamer of 2D dot pixel graphic game. Meanwhile, I am a dilettante musician. I like playing violin, piano, guitar and sometimes I compose music. So, by joining two interests, **I'm studying game music generation**. Currently, I'm focusing on the 80s retro game music. I love the chiptune and generated sound of the synthesizer at that time. :)
+
+In more general and large scope, my research interest and question are the harmonization of each instrument in **multi-track symbolic music generation**, and how to make machine learn and understand the composition rules of human-created music.
 
 ---
 
@@ -19,10 +20,17 @@ Mar 2020 - Feb 2022(Expected)
 
 Mar 2015 - Feb 2020
 * Daegu Gyeongbuk Institute of Science & Technology (DGIST), Daegu, South Korea
-* B.E. in School of Undergraduate Studies
+* B.E. in School of Undergraduate Studies : Biology and Computer Science
 
 Mar 2013 - Feb 2015
 * Busan Science High School, Busan, Korea
+
+---
+
+## Skills
+* Programming : Python, C, C++, C#, Matlab
+* Game Development : Unity
+* Web Application : HTML, Javascript, Django
 
 ---
 
@@ -34,7 +42,7 @@ Jun 2021 - Sep 2021
 
 Mar 2021 - Dec 2021
 * Assistant of Daejeon Science High School Research Program
-* Investigation of Mozart Dice Music Generation System[github](https://github.com/JECH2/dshs_mozart_dice)
+* Investigation of Mozart Dice Music Generation System
 
 Jul 2019 - Aug 2019
 * Company-University Cooperation Program at AI Development Team, INFINYX, Daegu, Korea
@@ -46,19 +54,16 @@ Jan 2019 - Feb 2019
  
 Jul 2018 - Nov 2018
 * Summer Research Program at Music and Audio Research Group(MARG), Seoul National University, Suwon, Korea
-* Music Cognition Study and Musical Syntax Experiment[github](https://github.com/JECH2/EEG_Musical_syntax_experiment/tree/master/Musical_syntax_experiment)
+* Music Cognition Study and Musical Syntax Experiment ([github](https://github.com/JECH2/EEG_Musical_syntax_experiment/tree/master/Musical_syntax_experiment))
 
----
 
 ### Game related
 Mar 2021 - Jun 2021
-* Assistant of Game Art Exhibition 2021
-* [Archive](http://gameart.dothome.co.kr/)
+* Assistant of [Game Art Exhibition 2021](https://ct.kaist.ac.kr/ctplay/gameart2021/index.html)
 
 Sep 2020 - Dec 2020
 * Game Development during Game Design Class(GCT742) in GSCT
 * Won the 1st prize in class
-* [Game Demo](https://www.youtube.com/watch?v=bNyTRq_MJe0&feature=youtu.be)
 
 Sep 2020 - Dec 2020
 * Teaching Assistant of GCT Game Studies(GCT544), Professor Young Yim Doh
@@ -67,9 +72,8 @@ Sep 2018 - Dec 2018
 * Participated Unity Game Development Challenge 2018
 * Advanced to contest finals and invited G-STAR 2018 B2B Session
 
----
 
-### OTHER (Mostly Biology related)
+### Others (Mostly Biology related)
 Mar 2019 - Dec 2019
 * Undergraduate Research Program in DGIST
 * Development of a System for the Welfare of Zoo Animals
@@ -90,7 +94,7 @@ Feb 2017
 
 June 2016 - Aug 2016
 * Enroll Summer Semester at University of California, Berkeley, CA, USA
-* Courses : Introduction to Music Theory, Selected Topics in Astronomy
+* Introduction to Music Theory, Selected Topics in Astronomy
 * Funded by DGIST : Freshman Global Leadership Program
 * Awarded as Academic Exellence
 
