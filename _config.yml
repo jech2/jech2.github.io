@@ -9,8 +9,8 @@ permalink:        pretty
 title:            Eunjin Choi
 tagline:          
 description:      'jech@kaist.ac.kr'
-url:              http://jech2.github.io
-baseurl:          /
+url:              http://jech2.github.io/
+baseurl:          ''
 
 author:
   name:           'Eunjin Choi'

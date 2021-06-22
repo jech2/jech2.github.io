@@ -7,9 +7,9 @@ title: About
   Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
 </p> -->
 
-I’m a graduate student who loves game music so much. I was used to be a heavy gamer of 2D dot pixel graphic game. Meanwhile, I am a dilettante musician. I like playing violin, piano, guitar and sometimes I compose music. So, by joining two interests, **I'm studying game music generation**. Currently, I'm focusing on the 80s retro game music. I love the chiptune and generated sound of the synthesizer at that time.
+I was used to be a heavy gamer of 2D dot pixel graphic game. I started coding as a hobby because I wanted to make a game like *Maplestory*. Since it was more fun than I expected, I changed my major during my undergraduate. Meanwhile, I am a dilettante musician. I play violin, piano, guitar and sometimes I compose music. So, by joining these interests, I'm studying game music generation. Currently, I'm focusing on the 80s retro game music. I love the chiptune and generated sound of the synthesizer at that time.
 
-In more general and large scope, my research interest and question are the harmonization of each instrument in **multi-track symbolic music generation**, and how to make machine learn and understand the composition rules of human-created music.
+In more general and large scope, my research interest and question are the harmonization of each instrument in multi-track symbolic music generation, and how to make machine learn and understand the composition rules of human-created music.
 
 ---
 
@@ -29,6 +29,7 @@ Mar 2013 - Feb 2015
 
 ## Skills
 * Programming : Python, C, C++, C#, Matlab
+* Deep Learning : Pytorch
 * Game Development : Unity
 * Web Application : HTML, Javascript, Django
 
