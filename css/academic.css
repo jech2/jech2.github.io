@@ -122,3 +122,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--global-theme-co
 
 .other-experiences-link { font-size: .85rem; margin-top: .25rem; }
 .experience-history > li { margin-bottom: 1.5rem; }
+
+#work-experience > h2,
+#education > h2 { margin-bottom: 1rem; }
+.research-page .publications-header { margin-bottom: 1rem; }
