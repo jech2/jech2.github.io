@@ -131,3 +131,12 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--global-theme-co
 .other-experiences-header { margin-bottom: 1rem; }
 .other-experiences-header h1 { font-size: 1.8rem; font-weight: 400; margin-bottom: 1rem; }
 .other-experiences-header p { margin-bottom: 0; }
+
+.publications .venue-group { padding: .4rem .2rem; line-height: 1.5; }
+.publications .venue-group > strong,
+.publications .venue-group > span { display: block; color: white; }
+.publication-entries .publication-entry + .publication-entry {
+  border-top: 1px solid var(--global-divider-color);
+  margin-top: 1rem;
+  padding-top: 1rem;
+}

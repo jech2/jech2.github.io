@@ -10,32 +10,49 @@ papers = json.loads((ROOT / 'data/publications.json').read_text())
 shell = Template((ROOT / 'templates/page.html').read_text())
 style_version = hashlib.sha256((ROOT / 'css/academic.css').read_bytes()).hexdigest()[:12]
 
+def publication_details(paper):
+    title = escape(paper['title'])
+    authors = escape(paper['authors']).replace('Eunjin Choi', '<strong>Eunjin Choi</strong>')
+    rendered_links = []
+    for link in paper['links']:
+        markup = f'<a class="btn btn-sm" href="{escape(link["url"], quote=True)}">{escape(link["label"])}</a>'
+        if link.get('disabled'):
+            markup = f'<!-- {escape(link.get("disabled_reason", "Link disabled"))}: {markup} -->'
+        rendered_links.append(markup)
+    links = ' '.join(rendered_links)
+    tags = '<ul class="research-tags" aria-label="Research keywords">' + ''.join(f'<li>{escape(tag)}</li>' for tag in paper['tags']) + '</ul>'
+    return f'<div class="title">{title}</div><div class="author">{authors}</div><div class="periodical"><em>{escape(paper["venue_full"])}</em>, {paper["year"]}</div>{tags}<div class="links">{links}</div>'
+
+
+def publication_preview(paper):
+    if not paper.get('show_preview', True):
+        return ''
+    return f'<img src="{escape(paper["image"])}" class="preview rounded" alt="{escape(paper["title"])} — preview" loading="lazy" width="140" height="100">'
+
+
 def publications(limit=None, category="mir"):
     displayed_papers = [paper for paper in papers if paper.get("homepage_selected", True)] if limit is not None else papers
-    research_count = 0
     displayed_papers = [paper for paper in displayed_papers if paper["category"] == category]
     rows = []
+    rendered_groups = set()
     for index, paper in enumerate(displayed_papers):
-        title = escape(paper['title'])
-        authors = escape(paper['authors']).replace('Eunjin Choi', '<strong>Eunjin Choi</strong>')
-        rendered_links = []
-        for link in paper['links']:
-            markup = f'<a class="btn btn-sm" href="{escape(link["url"], quote=True)}">{escape(link["label"])}</a>'
-            if link.get('disabled'):
-                markup = f'<!-- {escape(link.get("disabled_reason", "Link disabled"))}: {markup} -->'
-            rendered_links.append(markup)
-        links = ' '.join(rendered_links)
-        preview = ''
-        if paper.get('show_preview', True):
-            preview = f'<img src="{escape(paper["image"])}" class="preview rounded" alt="{title} — preview" loading="lazy" width="140" height="100">'
-        tags = '<ul class="research-tags" aria-label="Research keywords">' + ''.join(f'<li>{escape(tag)}</li>' for tag in paper['tags']) + '</ul>'
-        is_research = paper['category'] == 'mir'
         hidden = " hidden" if limit is not None and index >= limit else ""
-        if is_research:
-            research_count += 1
-        rows.append(f'''<li{hidden} data-category="{escape(paper['category'])}"><div class="row">
-<div class="col-sm-2 abbr"><span class="badge rounded w-100">{escape(paper['venue'])}</span>{preview}</div>
-<div class="col-sm-10"><div class="title">{title}</div><div class="author">{authors}</div><div class="periodical"><em>{escape(paper['venue_full'])}</em>, {paper['year']}</div>{tags}<div class="links">{links}</div></div></div></li>''')
+        group_id = paper.get('publication_group')
+        if group_id:
+            if group_id in rendered_groups:
+                continue
+            rendered_groups.add(group_id)
+            group = [entry for entry in displayed_papers if entry.get('publication_group') == group_id]
+            venues = ''.join(f'<strong>{escape(entry["venue"])}</strong>' if i == 0 else f'<span>{escape(entry["venue"])}</span>' for i, entry in enumerate(group))
+            preview_paper = next((entry for entry in group if entry.get('show_preview', True)), group[0])
+            details = ''.join(f'<div class="publication-entry">{publication_details(entry)}</div>' for entry in group)
+            rows.append(f'''<li{hidden} class="publication-group" data-category="{escape(category)}" data-publication-group="{escape(group_id)}"><div class="row">
+<div class="col-sm-2 abbr"><span class="badge venue-group rounded w-100">{venues}</span>{publication_preview(preview_paper)}</div>
+<div class="col-sm-10 publication-entries">{details}</div></div></li>''')
+        else:
+            rows.append(f'''<li{hidden} data-category="{escape(category)}"><div class="row">
+<div class="col-sm-2 abbr"><span class="badge rounded w-100">{escape(paper['venue'])}</span>{publication_preview(paper)}</div>
+<div class="col-sm-10">{publication_details(paper)}</div></div></li>''')
     mir = sum(p['category'] == 'mir' for p in displayed_papers)
     audio_game = len(displayed_papers) - mir
     summary = f'Showing {min(limit or mir, mir)} of {mir} research papers' if category == 'mir' else f'2 games &amp; interactive works · {audio_game} related publications'

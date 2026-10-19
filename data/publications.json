@@ -113,7 +113,8 @@
     "venue_full": "ACM Conference on Computer Graphics and Interactive Techniques in Asia (SIGGRAPH Asia) · Art Papers",
     "publication_type": "C",
     "publication_id": "C6",
-    "show_preview": false
+    "show_preview": false,
+    "publication_group": "cutting-kim"
   },
   {
     "title": "Cutting Kim: VR Voice Interaction Game",
@@ -150,7 +151,8 @@
     ],
     "venue_full": "Human Computer Interaction Korea (HCI Korea)",
     "publication_type": "C",
-    "publication_id": "C4"
+    "publication_id": "C4",
+    "publication_group": "cutting-kim"
   },
   {
     "title": "Bridging Audio and Symbolic Piano Data through a Web-Based Annotation Interface",
