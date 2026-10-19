@@ -85,7 +85,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--global-theme-co
   body.fixed-top-nav { padding-top: 90px; }
 }
 
-.related-publications-heading { margin-top: 1.5rem; }
+.related-publications-heading { margin-top: 1.5rem; font-weight: 400; }
 .publication-note { font-size: .8rem; margin-top: 1rem; }
 
 .publications ol.bibliography li .links a.btn { padding-top: .12rem; padding-bottom: .12rem; line-height: 1.4; }
