@@ -127,3 +127,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--global-theme-co
 #work-experience > h2,
 #education > h2 { margin-bottom: 1rem; }
 .research-page .publications-header { margin-bottom: 1rem; }
+
+.other-experiences-header { margin-bottom: 1rem; }
+.other-experiences-header h1 { font-size: 1.8rem; font-weight: 400; margin-bottom: 1rem; }
+.other-experiences-header p { margin-bottom: 0; }
