@@ -1,0 +1,10 @@
+{
+  "name": "eunjin-choi-homepage",
+  "private": true,
+  "scripts": {
+    "build:css": "sass --silence-deprecation=import,global-builtin,color-functions assets/al-folio/main.scss assets/al-folio/main.css --style=compressed --no-source-map",
+    "build": "npm run build:css && python3 scripts/build.py",
+    "preview": "python3 -m http.server 8000 --bind 127.0.0.1"
+  },
+  "devDependencies": {"sass": "1.83.4"}
+}

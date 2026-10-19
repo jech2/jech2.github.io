@@ -1,362 +1,66 @@
-<!-- /*
-* Template Name: Untreefolio
-* Template Author: Untree.co
-* Tempalte URI: https://untree.co/
-* License: https://creativecommons.org/licenses/by/3.0/
-* Modified by Eunjin Choi : https://jech2.github.io
-*/ -->
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="author" content="Untree.co">
-
-  <link rel="icon" href="images/personal/eunjinChoi_color_circle.png" />
-  <link rel="apple-touch-icon" href="images/personal/eunjinChoi_color_circle.png" />
-
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eunjin Choi</title>
+  <meta name="author" content="Eunjin Choi">
+  <meta name="description" content="Eunjin Choi — machine learning researcher at KAIST working on music representation learning and controllable generative modeling.">
+  <link rel="icon" href="images/personal/eunjinChoi_color_circle.png">
+  <link rel="stylesheet" href="assets/al-folio/bootstrap.min.css">
   <link rel="stylesheet" href="css/vendor/icomoon/style.css">
-  <link rel="stylesheet" href="css/vendor/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/vendor/aos.css">
-  <link rel="stylesheet" href="css/vendor/animate.min.css">
-  <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
-  <link rel="stylesheet" href="css/vendor/jquery.fancybox.min.css">
-
-  <link rel="stylesheet" href="css/css/bootstrap/bootstrap.css">
-  <!-- Theme Style -->
-  <link rel="stylesheet" href="css/style.css">
-
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap">
+  <link rel="stylesheet" href="assets/al-folio/main.css">
+  <link rel="stylesheet" href="css/academic.css?v=e8fa56d6d0ee">
 </head>
-
-<body data-spy="scroll" data-target=".site-nav-target" data-offset="200">
-
-  <nav class="unslate_co--site-mobile-menu">
-    <div class="close-wrap d-flex">
-      <a href="#" class="d-flex ml-auto js-menu-toggle">
-        <span class="close-label">Close</span>
-        <div class="close-times">
-          <span class="bar1"></span>
-          <span class="bar2"></span>
-        </div>
-      </a>
-    </div>
-    <div class="site-mobile-inner"></div>
-  </nav>
-
-  <div class="unslate_co--site-wrap">
-
-    <div class="unslate_co--site-inner">
-
-      <nav class="unslate_co--site-nav site-nav-target">
-
-        <div class="container">
-
-          <div class="row align-items-center justify-content-between text-left">
-            <!-- <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
-                <li class="has-children">
-                  <a href="#home-section" class="nav-link">Home</a>
-                  <ul class="dropdown">
-                    <li>
-                      <a href="#">Menu 1</a>
-                    </li>
-                    <li>
-                      <a href="#">Menu 2</a>
-                    </li>
-                    <li>
-                      <a href="#">Menu 3</a>
-                    </li>
-                    <li>
-                      <a href="#">Menu 4</a>
-                    </li>
-                    <li>
-                      <a href="#">Menu 5</a>
-                    </li>
-                  </ul>
-                </li>
-                <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
-                <li><a href="#about-section" class="nav-link">About</a></li>
-                
-              </ul> -->
-            <div class="col-md-5 text-left">
-              <a href="index.html" class="unslate_co--site-logo">EUNJIN CHOI<span></span></a>
-            </div>
-            <div class="col-md-5 text-right">
-              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
-                <!--<li><a href="blogs.html" class="nav-link">Blog</a></li>-->
-                <li><a href="index.html#projects" class="nav-link">Projects</a></li>
-                <li><a href="publications.html" class="nav-link">Publications</a></li>
-                <li><a href="https://github.com/jech2/jech2.github.io/raw/master/files/cv_full_eunjinchoi.pdf"
-                    download="cv_full_eunjinchoi.pdf" class="nav-link">CV</a>
-                </li>
-
-              </ul>
-
-              <ul class="site-nav-ul-none-onepage text-right d-inline-block d-lg-none">
-                <li><a href="#" class="js-menu-toggle">Menu</a></li>
-              </ul>
-
-            </div>
-          </div>
-        </div>
-
-      </nav>
-      <!-- END nav -->
-
-      <div class="container">
-        <div class="portfolio-single-wrap unslate_co--section" id="portfolio-single-section">
-          <div class="portfolio-single-inner">
-
-            <h2 class="heading-portfolio-single-h2" style="font-family: Consolas">Hello, World!</h2>
-
-            <div class="row justify-content-between align-items-stretch contents">
-
-              <div class="col-lg-4">
-                <p><a href="images/personal/eunjin_choi.png" data-fancybox="gal"><img
-                      src="images/personal/eunjin_choi.png" alt="Image" class="img-fluid"
-                      style="border-radius: 100%"></a></p>
-              </div>
-              <div class="col-lg-8 pl-lg-5">
-                <div class="unslate_co--sticky">
-                  <div class="row">
-                    <div class="col-md-12 mb-4">
-                      <div class="detail-v1">
-                        <span class="detail-label">About</span>
-                        <span class="detail-val">
-                          <p>I’m a Ph.D. Candidate @ Music and Audio Computing Lab, KAIST. </p>
-                          <p>I am a machine learning researcher focusing on representation learning and controllable generative modeling for
-sequential and structured data. My previous work has mainly focused on symbolic music data, exploring various
-structured representations such as tokenized sequences, matrices, and graphs for music generation and understanding.
-I have hands-on experience in dataset construction, preprocessing, and model development across the entire ML
-pipeline, particularly with Transformer- and Diffusion-based architectures. Ultimately, my long-term goal is to
-enable machines to learn and understand the underlying structures and patterns in human-created data. </p>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-            <!--<div class="detail-v1">
-              <span class="detail-label-whole1">About</span>
-              <span class="detail-val"> 
-                <p>Hi, </p>
-                
-              </div>
-  
-            <div class="detail-v1">
-            <span class="detail-label-whole1">News</span>
-            <span class="detail-val"> 
-              <p>YM2413-MDB Paper Accept!!!!</p>
-              
-            </div> -->
-
-            <div class="detail-v1">
-              <span class="detail-label-whole2"><a name="projects">Archive</a></span>
-              <p></p>
-              <div class="container">
-                <div class="relative">
-                  <div class="loader-portfolio-wrap">
-                    <div class="loader-portfolio"></div>
-                  </div>
-                </div>
-                <div id="portfolio-single-holder"></div>
-
-                <div class="portfolio-wrapper">
-
-                  <div id="posts" class="row gutter-isotope-item">
-                    <div class="item web branding col-sm-6 col-md-6 col-lg-6 isotope-mb-2">
-                      <a href="https://anonymous-researcher-mir.github.io/D3PIA/"
-                        class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
-                        <div class="overlay">
-                          <span class="wrap-icon icon-link2"></span>
-                          <div class="portfolio-item-content">
-                            <h3>D3PIA: A Discrete Denoising Diffusion Model for Piano Accompaniment Generation from Lead Sheet</h3>
-                            <p>Submitted Publication</p>
-                          </div>
-                        </div>
-                        <img src="images/publications/2025_d3pia.png" class="lazyload  img-fluid cropping"
-                          alt="Images" />
-                      </a>
-                    </div>
-
-                    <div class="item web branding col-sm-6 col-md-6 col-lg-6 isotope-mb-2">
-                      <a href="https://jech2.github.io/LMD_Deduplication/"
-                        class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
-                        <div class="overlay">
-                          <span class="wrap-icon icon-link2"></span>
-                          <div class="portfolio-item-content">
-                            <h3>On the De-duplication of the Lakh MIDI Dataset</h3>
-                            <p>Publication</p>
-                          </div>
-                        </div>
-                        <img src="images/publications/2025_lmd_dedup.png" class="lazyload  img-fluid cropping"
-                          alt="Images" />
-                      </a>
-                    </div>
-                    
-                    <div class="item web branding col-sm-6 col-md-6 col-lg-6 isotope-mb-2">
-                      <a href="https://hayeonbang.github.io/PianoBind/"
-                        class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
-                        <div class="overlay">
-                          <span class="wrap-icon icon-link2"></span>
-                          <div class="portfolio-item-content">
-                            <h3>PianoBind: A Multimodal Joint Embedding Model for Pop-piano Music</h3>
-                            <p>Publication</p>
-                          </div>
-                        </div>
-                        <img src="images/publications/2025_pianobind.png" class="lazyload  img-fluid cropping"
-                          alt="Images" />
-                      </a>
-                    </div>
-
-                    <div class="item web branding col-sm-6 col-md-6 col-lg-6 isotope-mb-2">
-                      <a href="https://openreview.net/pdf?id=4Z-7itppp0"
-                        class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
-                        <div class="overlay">
-                          <span class="wrap-icon icon-link2"></span>
-                          <div class="portfolio-item-content">
-                            <h3>Teaching Chorale Generation Model to Avoid Parallel Motions</h3>
-                            <p>Publication</p>
-                          </div>
-                        </div>
-                        <img src="images/publications/expertbach.png" class="lazyload  img-fluid cropping"
-                          alt="Images" />
-                      </a>
-                    </div>
-
-                    <div class="item web branding col-sm-6 col-md-6 col-lg-6 isotope-mb-2">
-                      <a href="https://github.com/saebyulpark/Mel2word"
-                        class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
-                        <div class="overlay">
-                          <span class="wrap-icon icon-link2"></span>
-                          <div class="portfolio-item-content">
-                            <h3>Mel2Word: A Text-based Melody Representation for Symbolic Music Analysis</h3>
-                            <p>Publication</p>
-                          </div>
-                        </div>
-                        <img src="images/publications/Mel2word.png" class="lazyload  img-fluid cropping" alt="Images" />
-                      </a>
-                    </div>
-
-                    <div class="item web branding col-sm-6 col-md-6 col-lg-6 isotope-mb-2">
-                      <a href="cuttingkim.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
-                        data-id="1">
-                        <div class="overlay">
-                          <span class="wrap-icon icon-link2"></span>
-                          <div class="portfolio-item-content">
-                            <h3>Cutting Kim</h3>
-                            <p>Game Development</p>
-                          </div>
-                        </div>
-                        <img src="images/projects/cuttingkim/poster.png" class="lazyload  img-fluid cropping"
-                          alt="Images" />
-                      </a>
-                    </div>
-
-                    <div class="item web branding col-sm-6 col-md-6 col-lg-6 isotope-mb-2">
-                      <a href="https://ismir2023program.ismir.net/lbd_326.html"
-                        class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
-                        <div class="overlay">
-                          <span class="wrap-icon icon-link2"></span>
-                          <div class="portfolio-item-content">
-                            <h3>Bridging Audio and Symbolic Piano Data through a Web-Based Annotation Interface</h3>
-                            <p>Publication</p>
-                          </div>
-                        </div>
-                        <img src="images/publications/bridging-audio-sym.png" class="lazyload  img-fluid cropping"
-                          alt="Images" />
-                      </a>
-                    </div>
-
-                    <div class="item web branding col-sm-6 col-md-6 col-lg-6 isotope-mb-2">
-                      <a href="https://jech2.github.io/YM2413-MDB/"
-                        class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
-                        <div class="overlay">
-                          <span class="wrap-icon icon-link2"></span>
-                          <div class="portfolio-item-content">
-                            <h3>YM2413-MDB</h3>
-                            <p>Publication</p>
-                          </div>
-                        </div>
-                        <img src="images/publications/ym2413-mdb.png" class="lazyload  img-fluid cropping"
-                          alt="Images" />
-                      </a>
-                    </div>
-
-                    <div class="item web branding col-sm-6 col-md-6 col-lg-6 isotope-mb-2">
-                      <a href="harmonionz.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
-                        data-id="1">
-                        <div class="overlay">
-                          <span class="wrap-icon icon-link2"></span>
-                          <div class="portfolio-item-content">
-                            <h3>Harmonionz, Rescue the Planet</h3>
-                            <p>Game Development</p>
-                          </div>
-                        </div>
-                        <img src="images/projects/harmonionz/harmonionz_main.png" class="lazyload  img-fluid cropping"
-                          alt="Images" />
-                      </a>
-                    </div>
-
-
-                  </div>
-
-                </div>
-              </div>
-
-            </div>
-
-          </div>
-        </div>
-
-
-      </div>
-
-
-
-    </div>
-
-
-
-    <footer class="unslate_co--footer unslate_co--section">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-7">
-
-            <div class="footer-site-logo"><a href="#">CONTACTS</a></div>
-
-            <ul class="list-unstyled social-icons light">
-              <li><a href="https://www.github.com/jech2
-                  "><span class="icon-github"></span></a></li>
-              <li><a href="mailto:jech@kaist.ac.kr"><span class="icon-envelope"></span></a></li>
-              <!--<li><a href="https://soundcloud.com/jech_2"><span class="icon-soundcloud"></span></a></li>-->
-            </ul>
-
-            <p class="site-copyright"><small>Template was designed with love by <a href="https://untree.co"
-                  target="_blank" rel="nofollow noopener">Untree.co</a> &bullet; <a href="https://untree.co/license"
-                  target="_blank" rel="nofollow noopener">License</a> </small></p>
-          </div>
-        </div>
-      </div>
-    </footer>
-
+<body class="fixed-top-nav sticky-bottom-footer">
+<a class="skip-link" href="#main">Skip to content</a>
+<header><nav class="navbar navbar-light fixed-top" aria-label="Main navigation"><div class="container">
+  <div class="navbar-brand social" aria-label="Home and contact links">
+    <a href="index.html" aria-label="Home" title="Home"><span class="icon-home" aria-hidden="true"></span></a>
+    <a href="mailto:jech@kaist.ac.kr" aria-label="Email" title="Email"><span class="icon-envelope" aria-hidden="true"></span></a>
+    <a href="https://github.com/jech2" aria-label="GitHub" title="GitHub"><span class="icon-github" aria-hidden="true"></span></a>
+    <a href="https://scholar.google.com/citations?user=3VWIf88AAAAJ" aria-label="Google Scholar" title="Google Scholar"><span class="icon-graduation-cap" aria-hidden="true"></span></a>
+    <a href="files/cv_eunjinchoi.pdf" aria-label="Curriculum vitae PDF" title="CV"><span class="cv-text">CV</span></a>
   </div>
+  <div class="top-tabs" aria-label="Sections"><a href="index.html" aria-current="page">Research</a><a href="other-projects.html">Other Projects</a></div>
+</div></nav></header>
+<main id="main" class="container mt-5"><div class="post"><article>
+<div class="intro-layout">
+<div class="intro-copy">
+<header class="post-header"><h1 class="post-title name-title"><strong>Eunjin Choi;</strong></h1></header>
+<p>Hello! Welcome to my homepage.</p>
+<p>I’m interested in representation learning, controllable generation, and multimodal learning for sequential and structured data. My experience includes dataset construction, preprocessing, and model development with Transformer and diffusion architectures. I received my Ph.D. from KAIST, where I worked on symbolic music modeling.</p>
+<p>Things I like: automating, archiving, organizing, <a class="quiet-link" href="https://youtu.be/L0bQqc_W8tc" target="_blank" rel="noopener noreferrer">bleeps/bloops</a>, and my husband.</p>
+</div>
+<div class="intro-photo"><img src="images/personal/eunjin_outdoors-neck-refined.png" class="img-fluid profile-photo" width="1241" height="1267" alt="Eunjin Choi"></div>
+</div>
 
-  <!-- Loader -->
-  <div id="unslate_co--overlayer"></div>
-  <div class="site-loader-wrap">
-    <div class="site-loader"></div>
-  </div>
+<section id="work-experience"><h2>Work Experience</h2><ul class="education-list">
+<li><strong>NHN Cloud</strong><br>AI/ML Researcher · Jan. 2026 – Present<br><span class="muted">Recommendation Systems · Time-Series Modeling</span></li>
+</ul></section>
 
-  <script src="js/scripts-dist.js"></script>
-  <script src="js/main.js"></script>
+<section id="education"><h2>Education</h2><ul class="education-list">
+<li><strong>Korea Advanced Institute of Science and Technology (KAIST)</strong><br>Ph.D. in Culture Technology · Mar. 2022 – Aug. 2026<br><span class="muted">Advisor: <a href="https://mac.kaist.ac.kr/~juhan/">Juhan Nam</a></span></li>
+<li><strong>Korea Advanced Institute of Science and Technology (KAIST)</strong><br>M.S. in Culture Technology · Mar. 2020 – Feb. 2022<br><span class="muted">Advisor: <a href="https://mac.kaist.ac.kr/~juhan/">Juhan Nam</a></span></li>
+<li><strong>Daegu Gyeongbuk Institute of Science and Technology (DGIST)</strong><br>B.E. in Convergence · Mar. 2015 – Feb. 2020<br><span class="muted">Magna cum laude</span></li></ul></section>
+<section class="research-page" id="publications" data-limit="5"><div class="publications-header"><h2>Selected Publications</h2>
+</div>
 
 
+<div class="publications"><ol class="bibliography"><li data-category="mir"><div class="row">
+<div class="col-sm-2 abbr"><span class="badge rounded w-100">ICASSP</span><img src="images/publications/2025_d3pia.png" class="preview rounded" alt="D3PIA: A Discrete Denoising Diffusion Model for Piano Accompaniment Generation from Lead Sheet — preview" loading="lazy" width="140" height="100"></div>
+<div class="col-sm-10"><div class="title">D3PIA: A Discrete Denoising Diffusion Model for Piano Accompaniment Generation from Lead Sheet</div><div class="author"><strong>Eunjin Choi</strong>, Hounsu Kim, Hayeon Bang, Taegyun Kwon, Juhan Nam</div><div class="periodical"><em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em>, 2026</div><ul class="research-tags" aria-label="Research keywords"><li>Discrete Diffusion</li><li>Controllable Generation</li><li>Symbolic Music Generation</li></ul><div class="links"><a class="btn btn-sm" href="https://arxiv.org/abs/2602.03523">Paper</a> <a class="btn btn-sm" href="https://github.com/jech2/D3PIA">Code</a> <a class="btn btn-sm" href="https://jech2.github.io/D3PIA/">Demo</a></div></div></div></li><li data-category="mir"><div class="row">
+<div class="col-sm-2 abbr"><span class="badge rounded w-100">ISMIR</span><img src="images/publications/2025_lmd_dedup.png" class="preview rounded" alt="On the De-duplication of the Lakh MIDI Dataset — preview" loading="lazy" width="140" height="100"></div>
+<div class="col-sm-10"><div class="title">On the De-duplication of the Lakh MIDI Dataset</div><div class="author"><strong>Eunjin Choi</strong>, Hyerin Kim, Jiwoo Ryu, Juhan Nam, Dasaem Jeong</div><div class="periodical"><em>International Society for Music Information Retrieval Conference (ISMIR)</em>, 2025</div><ul class="research-tags" aria-label="Research keywords"><li>Representation Learning</li><li>Dataset De-duplication</li></ul><div class="links"><a class="btn btn-sm" href="https://arxiv.org/abs/2509.16662">Paper</a> <a class="btn btn-sm" href="https://github.com/jech2/LMD_Deduplication">Code</a> <a class="btn btn-sm" href="https://jech2.github.io/LMD_Deduplication/">Demo</a></div></div></div></li><li data-category="mir"><div class="row">
+<div class="col-sm-2 abbr"><span class="badge rounded w-100">ISMIR</span><img src="images/publications/2025_pianobind.png" class="preview rounded" alt="PianoBind: A Multimodal Joint Embedding Model for Pop-piano Music — preview" loading="lazy" width="140" height="100"></div>
+<div class="col-sm-10"><div class="title">PianoBind: A Multimodal Joint Embedding Model for Pop-piano Music</div><div class="author">Hayeon Bang, <strong>Eunjin Choi</strong>, Seungheon Doh, Juhan Nam</div><div class="periodical"><em>International Society for Music Information Retrieval Conference (ISMIR)</em>, 2025</div><ul class="research-tags" aria-label="Research keywords"><li>Representation Learning</li><li>Audio-Text-MIDI</li><li>Text-to-Music Retrieval</li></ul><div class="links"><a class="btn btn-sm" href="https://arxiv.org/abs/2509.04215">Paper</a> <a class="btn btn-sm" href="https://github.com/Hayeonbang/PianoBind">Code</a> <a class="btn btn-sm" href="https://hayeonbang.github.io/PianoBind/">Demo</a></div></div></div></li><li data-category="mir"><div class="row">
+<div class="col-sm-2 abbr"><span class="badge rounded w-100">ISMIR</span><img src="images/publications/ym2413-mdb.png" class="preview rounded" alt="YM2413-MDB : A Multi-Instrumental FM Video Game Music Dataset with Emotion Annotations — preview" loading="lazy" width="140" height="100"></div>
+<div class="col-sm-10"><div class="title">YM2413-MDB : A Multi-Instrumental FM Video Game Music Dataset with Emotion Annotations</div><div class="author"><strong>Eunjin Choi</strong>, Yoonjin Chung, Seolhee Lee, Jong Ik Jeon, Taegyun Kwon, and Juhan Nam</div><div class="periodical"><em>International Society for Music Information Retrieval Conference (ISMIR)</em>, 2022</div><ul class="research-tags" aria-label="Research keywords"><li>Dataset Curation</li><li>Music Emotion Recognition</li><li>Emotion-Conditioned Generation</li></ul><div class="links"><a class="btn btn-sm" href="https://arxiv.org/abs/2211.07131">Paper</a> <a class="btn btn-sm" href="https://github.com/jech2/YM2413-MDB">Code</a> <a class="btn btn-sm" href="https://jech2.github.io/YM2413-MDB/">Demo</a></div></div></div></li></ol></div>
+<p class="scholar-link">More publications on <a href="https://scholar.google.com/citations?user=3VWIf88AAAAJ">Google Scholar</a>.</p>
+</section>
+</article>
+</div></main>
+<footer class="sticky-bottom mt-5"><div class="container">© 2026 Eunjin Choi. Based on the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/">GitHub Pages</a>.</div></footer>
 </body>
-
 </html>

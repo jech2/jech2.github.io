@@ -1,0 +1,233 @@
+[
+  {
+    "title": "D3PIA: A Discrete Denoising Diffusion Model for Piano Accompaniment Generation from Lead Sheet",
+    "authors": "Eunjin Choi, Hounsu Kim, Hayeon Bang, Taegyun Kwon, Juhan Nam",
+    "venue": "ICASSP",
+    "year": 2026,
+    "image": "images/publications/2025_d3pia.png",
+    "first_author": true,
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2602.03523"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/jech2/D3PIA"
+      },
+      {
+        "label": "Demo",
+        "url": "https://jech2.github.io/D3PIA/"
+      }
+    ],
+    "category": "mir",
+    "tags": [
+      "Discrete Diffusion",
+      "Controllable Generation",
+      "Symbolic Music Generation"
+    ],
+    "venue_full": "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)",
+    "publication_type": "C",
+    "publication_id": "C9"
+  },
+  {
+    "title": "On the De-duplication of the Lakh MIDI Dataset",
+    "authors": "Eunjin Choi, Hyerin Kim, Jiwoo Ryu, Juhan Nam, Dasaem Jeong",
+    "venue": "ISMIR",
+    "year": 2025,
+    "image": "images/publications/2025_lmd_dedup.png",
+    "first_author": true,
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2509.16662"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/jech2/LMD_Deduplication"
+      },
+      {
+        "label": "Demo",
+        "url": "https://jech2.github.io/LMD_Deduplication/"
+      }
+    ],
+    "category": "mir",
+    "tags": [
+      "Representation Learning",
+      "Dataset De-duplication"
+    ],
+    "venue_full": "International Society for Music Information Retrieval Conference (ISMIR)",
+    "publication_type": "C",
+    "publication_id": "C8"
+  },
+  {
+    "title": "PianoBind: A Multimodal Joint Embedding Model for Pop-piano Music",
+    "authors": "Hayeon Bang, Eunjin Choi, Seungheon Doh, Juhan Nam",
+    "venue": "ISMIR",
+    "year": 2025,
+    "image": "images/publications/2025_pianobind.png",
+    "first_author": false,
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2509.04215"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/Hayeonbang/PianoBind"
+      },
+      {
+        "label": "Demo",
+        "url": "https://hayeonbang.github.io/PianoBind/"
+      }
+    ],
+    "category": "mir",
+    "tags": [
+      "Representation Learning",
+      "Audio-Text-MIDI",
+      "Text-to-Music Retrieval"
+    ],
+    "venue_full": "International Society for Music Information Retrieval Conference (ISMIR)",
+    "publication_type": "C",
+    "publication_id": "C7"
+  },
+  {
+    "title": "Cutting Kim: Playful Transgression Through VR Voice Interaction in Public Exhibition Contexts",
+    "authors": "Joonhyung Bae, Eunjin Choi, Juhan Nam",
+    "venue": "SIGGRAPH Asia",
+    "year": 2025,
+    "image": "images/publications/../projects/cuttingkim/poster.png",
+    "first_author": false,
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://dl.acm.org/doi/10.1145/3757369.3767596"
+      }
+    ],
+    "category": "audio-game",
+    "tags": [
+      "Virtual Reality",
+      "Voice-Controlled Games",
+      "Interactive Art"
+    ],
+    "venue_full": "ACM Conference on Computer Graphics and Interactive Techniques in Asia (SIGGRAPH Asia) · Art Papers",
+    "publication_type": "C",
+    "publication_id": "C6"
+  },
+  {
+    "title": "Cutting Kim: VR Voice Interaction Game",
+    "authors": "Joonhyung Bae, Eunjin Choi, and Juhan Nam",
+    "venue": "HCI Korea",
+    "year": 2023,
+    "image": "images/publications/../projects/cuttingkim/main.png",
+    "first_author": false,
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://ct.kaist.ac.kr/game/gameart2022"
+      },
+      {
+        "label": "Catalogue",
+        "url": "https://drive.google.com/file/d/1UivUhWLifJYux0faGIHloSHGL374Jbbu/view"
+      },
+      {
+        "label": "Paper",
+        "url": "https://drive.google.com/file/d/1OTmR3nvKRZIrhnPvXT3VqbgfgRZAoVLh/view"
+      },
+      {
+        "label": "Video",
+        "url": "https://www.youtube.com/watch?v=MLbbOSlHtiw"
+      }
+    ],
+    "category": "audio-game",
+    "tags": [
+      "Virtual Reality",
+      "Voice-Controlled Games",
+      "Game Design"
+    ],
+    "venue_full": "Human Computer Interaction Korea (HCI Korea)",
+    "publication_type": "C",
+    "publication_id": "C4"
+  },
+  {
+    "title": "Bridging Audio and Symbolic Piano Data through a Web-Based Annotation Interface",
+    "authors": "Seolhee Lee, Eunjin Choi, Joonhyung Bae, Hyerin Kim, Eita Nakamura, Dasaem Jeong, Juhan Nam",
+    "venue": "ISMIR · LBD",
+    "year": 2023,
+    "image": "images/publications/bridging-audio-sym.png",
+    "first_author": false,
+    "links": [
+      {
+        "label": "Demo",
+        "url": "https://ismir2023program.ismir.net/lbd_326.html"
+      }
+    ],
+    "category": "mir",
+    "tags": [
+      "Audio–Score Alignment",
+      "Music Annotation",
+      "Dataset Curation"
+    ],
+    "venue_full": "International Society for Music Information Retrieval Conference (ISMIR) · Late-Breaking Demo",
+    "publication_type": "C",
+    "publication_id": "C3",
+    "homepage_selected": false
+  },
+  {
+    "title": "YM2413-MDB : A Multi-Instrumental FM Video Game Music Dataset with Emotion Annotations",
+    "authors": "Eunjin Choi, Yoonjin Chung, Seolhee Lee, Jong Ik Jeon, Taegyun Kwon, and Juhan Nam",
+    "venue": "ISMIR",
+    "year": 2022,
+    "image": "images/publications/ym2413-mdb.png",
+    "first_author": true,
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2211.07131"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/jech2/YM2413-MDB"
+      },
+      {
+        "label": "Demo",
+        "url": "https://jech2.github.io/YM2413-MDB/"
+      }
+    ],
+    "category": "mir",
+    "tags": [
+      "Dataset Curation",
+      "Music Emotion Recognition",
+      "Emotion-Conditioned Generation"
+    ],
+    "venue_full": "International Society for Music Information Retrieval Conference (ISMIR)",
+    "publication_type": "C",
+    "publication_id": "C2"
+  },
+  {
+    "title": "Harmonionz, Rescue The Planet: A Voice Visualizing Game that Match Pitch with Color.",
+    "authors": "Hajun Kim*, Eunjin Choi*, and Byeoli Choi*",
+    "venue": "CHI PLAY",
+    "year": 2021,
+    "image": "images/publications/../projects/harmonionz/harmonionz_main.png",
+    "first_author": true,
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://dl.acm.org/doi/10.1145/3450337.3483510"
+      },
+      {
+        "label": "Video",
+        "url": "https://www.youtube.com/watch?v=dlyewHH4a98"
+      }
+    ],
+    "category": "audio-game",
+    "tags": [
+      "Voice-Controlled Games",
+      "Audio Visualization"
+    ],
+    "venue_full": "ACM Annual Symposium on Computer-Human Interaction in Play (CHI PLAY)",
+    "publication_type": "C",
+    "publication_id": "C1"
+  }
+]
