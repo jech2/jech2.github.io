@@ -112,7 +112,8 @@
     ],
     "venue_full": "ACM Conference on Computer Graphics and Interactive Techniques in Asia (SIGGRAPH Asia) · Art Papers",
     "publication_type": "C",
-    "publication_id": "C6"
+    "publication_id": "C6",
+    "show_preview": false
   },
   {
     "title": "Cutting Kim: VR Voice Interaction Game",
@@ -124,7 +125,9 @@
     "links": [
       {
         "label": "Website",
-        "url": "https://ct.kaist.ac.kr/game/gameart2022"
+        "url": "https://ct.kaist.ac.kr/game/gameart2022",
+        "disabled": true,
+        "disabled_reason": "Website is private"
       },
       {
         "label": "Catalogue",

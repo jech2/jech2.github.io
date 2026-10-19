@@ -18,14 +18,23 @@ def publications(limit=None, category="mir"):
     for index, paper in enumerate(displayed_papers):
         title = escape(paper['title'])
         authors = escape(paper['authors']).replace('Eunjin Choi', '<strong>Eunjin Choi</strong>')
-        links = ' '.join(f'<a class="btn btn-sm" href="{escape(link["url"], quote=True)}">{escape(link["label"])}</a>' for link in paper['links'])
+        rendered_links = []
+        for link in paper['links']:
+            markup = f'<a class="btn btn-sm" href="{escape(link["url"], quote=True)}">{escape(link["label"])}</a>'
+            if link.get('disabled'):
+                markup = f'<!-- {escape(link.get("disabled_reason", "Link disabled"))}: {markup} -->'
+            rendered_links.append(markup)
+        links = ' '.join(rendered_links)
+        preview = ''
+        if paper.get('show_preview', True):
+            preview = f'<img src="{escape(paper["image"])}" class="preview rounded" alt="{title} — preview" loading="lazy" width="140" height="100">'
         tags = '<ul class="research-tags" aria-label="Research keywords">' + ''.join(f'<li>{escape(tag)}</li>' for tag in paper['tags']) + '</ul>'
         is_research = paper['category'] == 'mir'
         hidden = " hidden" if limit is not None and index >= limit else ""
         if is_research:
             research_count += 1
         rows.append(f'''<li{hidden} data-category="{escape(paper['category'])}"><div class="row">
-<div class="col-sm-2 abbr"><span class="badge rounded w-100">{escape(paper['venue'])}</span><img src="{escape(paper['image'])}" class="preview rounded" alt="{title} — preview" loading="lazy" width="140" height="100"></div>
+<div class="col-sm-2 abbr"><span class="badge rounded w-100">{escape(paper['venue'])}</span>{preview}</div>
 <div class="col-sm-10"><div class="title">{title}</div><div class="author">{authors}</div><div class="periodical"><em>{escape(paper['venue_full'])}</em>, {paper['year']}</div>{tags}<div class="links">{links}</div></div></div></li>''')
     mir = sum(p['category'] == 'mir' for p in displayed_papers)
     audio_game = len(displayed_papers) - mir
