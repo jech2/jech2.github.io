@@ -69,7 +69,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--global-theme-co
 @media (max-width: 575px) { .academic-nav { gap: 14px; flex-wrap: wrap; } }
 
 .navbar-brand.social > a { display: inline-flex; align-items: center; justify-content: center; height: 32px; line-height: 1; }
-.navbar-brand.social .cv-text { font-size: 1.3rem; font-weight: 600; line-height: 1; }
+.navbar-brand.social .cv-text { font-size: 1.3rem; font-weight: 600; line-height: 1; transform: translateX(-3px); }
 
 .top-tabs { display: flex; align-items: center; gap: 24px; margin-left: auto; }
 .top-tabs a { color: #555; font-size: .95rem; padding: .35rem 0; }
