@@ -133,10 +133,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--global-theme-co
 .other-experiences-header p { margin-bottom: 0; }
 
 .publications .venue-group { padding: .4rem .2rem; line-height: 1.5; }
-.publications .venue-group > strong,
-.publications .venue-group > span { display: block; color: white; }
+.publications .venue-group > span { display: block; color: white; font-size: inherit; font-weight: 500; }
 .publication-entries .publication-entry + .publication-entry {
-  border-top: 1px solid var(--global-divider-color);
-  margin-top: 1rem;
-  padding-top: 1rem;
+  margin-top: 1.5rem;
 }

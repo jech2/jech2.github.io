@@ -43,7 +43,7 @@ def publications(limit=None, category="mir"):
                 continue
             rendered_groups.add(group_id)
             group = [entry for entry in displayed_papers if entry.get('publication_group') == group_id]
-            venues = ''.join(f'<strong>{escape(entry["venue"])}</strong>' if i == 0 else f'<span>{escape(entry["venue"])}</span>' for i, entry in enumerate(group))
+            venues = ''.join(f'<span>{escape(entry["venue"])}</span>' for entry in group)
             preview_paper = next((entry for entry in group if entry.get('show_preview', True)), group[0])
             details = ''.join(f'<div class="publication-entry">{publication_details(entry)}</div>' for entry in group)
             rows.append(f'''<li{hidden} class="publication-group" data-category="{escape(category)}" data-publication-group="{escape(group_id)}"><div class="row">
