@@ -119,3 +119,6 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--global-theme-co
   color: inherit;
   text-decoration: none;
 }
+
+.other-experiences-link { font-size: .85rem; margin-top: .25rem; }
+.experience-history > li { margin-bottom: 1.5rem; }

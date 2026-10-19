@@ -50,8 +50,9 @@ def render(filename, title, content):
 
 about = Template((ROOT / 'templates/about.html').read_text()).substitute(publications=publications(limit=5))
 render('index.html', 'Eunjin Choi', about)
+render('other-experiences.html', 'Other Experiences | Eunjin Choi', (ROOT / 'templates/other-experiences.html').read_text())
 render('other-projects.html', 'Other Projects | Eunjin Choi', publications(category='audio-game'))
 for filename, title in [('cuttingkim.html', 'Cutting Kim'), ('harmonionz.html', 'Harmonionz, Rescue the Planet')]:
     render(filename, title + ' | Eunjin Choi', (ROOT / 'templates' / filename).read_text())
 render('blogs.html', 'Blog | Eunjin Choi', '<header class="post-header"><h1>Blog</h1></header><p>Currently, this page is under construction.</p><p>See you soon!</p>')
-print(f'Built 5 pages with {len(papers)} publications.')
+print(f'Built 6 pages with {len(papers)} publications.')
